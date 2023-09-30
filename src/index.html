@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Calculator</title>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="./styles/main.css"/>
+     </head>
+     <body>
+          
+          <div id="root">
+               <div id="display-box">
+                    <p id="buf-op">buffer op</p>
+                    <h1 id="display">---</h1>
+               </div>
+               <div id="btn-box">
+                    <button class="btn num-input" type="button" data-value="9" selectable="false">9</button>
+                    <button class="btn num-input" type="button" data-value="8">8</button>
+                    <button class="btn num-input" type="button" data-value="7">7</button>
+                    <button class="btn op-input" type="button" data-operation="+">+</button>
+                    <button class="btn num-input" type="button" data-value="6">6</button>
+                    <button class="btn num-input" type="button" data-value="5">5</button>
+                    <button class="btn num-input" type="button" data-value="4">4</button>
+                    <button class="btn op-input" type="button" data-operation="-">-</button>
+                    <button class="btn num-input" type="button" data-value="3">3</button>
+                    <button class="btn num-input" type="button" data-value="2">2</button>
+                    <button class="btn num-input" type="button" data-value="1">1</button>
+                    <button class="btn op-input" type="button" data-operation="*">x</button>
+                    <button class="btn op-input clear" type="button" data-operation="c">C</button>
+                    <button class="btn num-input" type="button" data-value="0">0</button>
+                    <button class="btn op-input" type="button" data-operation=".">.</button>
+                    <button class="btn op-input" type="button" data-operation="/">/</button>
+                    <button class="btn op-input equals" typ="button" data-operation="=">=</button>
+               </div>
+          </div>
+          
+          <script charset="utf-8" src="./scripts/calculator.js"></script>
+     
+     </body>
+</html>
